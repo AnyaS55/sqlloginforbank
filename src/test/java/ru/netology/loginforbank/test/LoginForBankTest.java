@@ -1,11 +1,7 @@
 package ru.netology.loginforbank.test;
 
 import com.codeborne.selenide.Configuration;
-import org.junit.Test;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.chrome.ChromeOptions;
 import ru.netology.loginforbank.data.DataHelper;
 import ru.netology.loginforbank.data.SQLHelper;
